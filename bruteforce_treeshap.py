@@ -45,7 +45,7 @@ def EXPVALUE(x, S, tree):
 
         # feature in S? ==> follow the decision path
         if feature_index in S:
-            return G(left_child) if x[feature_index] <= threshold else G(right_child)
+            return G(left_child) if x[feature_index] < threshold else G(right_child)
         else:
             return (
                 (G(left_child) * cover_left + G(right_child) * cover_right)
