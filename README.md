@@ -2,7 +2,7 @@
 
 # 🎯 **Goals of the Repo**  
 
-This notebook aims to **reproduce the results** of the paper  
+This repo (see `xai_protein_modified.ipynb`) aims to **reproduce the results** of the paper  
 📖 *Explainable AI for Trees: From Local Explanations to Global Understanding* by **S.L. Lundberg et al. (2019)**.  
 
 It leverages some code from [this repository](https://github.com/suinleelab/treeexplainer-study) and focuses **exclusively** on the **NHANES I dataset**, which is one of the three datasets used in the original study.  
